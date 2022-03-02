@@ -15,7 +15,7 @@
   color: white;
   width: auto;
   height: auto;
-margin-right: 10px;
+margin-right: 5px;
   position: relative;
 }
 img {
@@ -51,19 +51,28 @@ img {
 
 /* Alignment styles */
 
-body, html {
+html, body{
   height: 100%;
 }
 
-body {
+.container {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+  height: 100%;
+
+}
+
+.oluwa {
+  margin-left: 10%;
+
 }
   </style>
+
 </head>
 <body>
-
+<div class="container">
+  <div class="oluwa">
   <div class="parent">
     <img src="lagos.webp">
     <div class="element">
@@ -71,6 +80,7 @@ body {
       <p class="tyu">9 Kilometres away</p>
     </div>
   </div>
+</div>
 
     <div class="parent">
     <img src="lagos.webp">
@@ -96,6 +106,6 @@ body {
     </div>
   </div>
 
-
+</div>
 </body>
 </html>
