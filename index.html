@@ -1,45 +1,42 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		.wrapper {
+			flex-wrap: nowrap;
+			overflow-x: auto;
+			display: flex;
+			justify-content: space-between;
+		}
 
-  <style type="text/css">
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-  .parent {
-  color: white;
-  width: auto;
-  height: auto;
-margin-right: 5px;
-  position: relative;
-}
-img {
-  border-radius: 5px 5px 0 0;
+		.card {
+			background-color: red;
+			margin: 3px;
+			width: 320px;
+			height: 426px;
+			flex: 0 0 auto;
+			border-radius: 30px 30px 30px 30px;
+			/*display: inline-block;*/
+		}
+
+		img {
+			width: 320px;
+			height: 213px;
+  			border-radius: 30px 30px 0 0;
 }
 
-.element {
-  /*width: 50px;*/
-  height: 213px;
-  background-color: #D93B30;
-  padding: 20px;
-  border-radius: 0 0 5px 5px;
-  /*color: rgba(255,255,255,.4);*/
-  position: absolute;
-  top: 98%;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
+
+
+/**/
 
 .element p {
   font-size: 23px;
   font-weight: 600;
-  padding: 5px;
+  padding: 20px;
+  color: white;
 }
 .element .tyu {
   /*font-size: 23px;*/
@@ -47,66 +44,86 @@ img {
   /*padding: 5px;*/
 }
 
-
-
-/* Alignment styles */
-
-html, body{
-  height: 100%;
+		::-webkit-scrollbar {
+    display: none;
+    /*height: 500px;*/
 }
-
-.container {
-  display: flex;
-  justify-content: flex-start;
-flex-wrap:wrap;
-  align-items: center;
-  height: 100%;
-
-}
-
-.oluwa {
-  margin-left: 10%;
-
-}
-  </style>
-
+	</style>
 </head>
 <body>
-<div class="container">
-  <div class="oluwa">
-  <div class="parent">
-    <img src="lagos.webp">
-    <div class="element">
-      <p>Lagos</p>
-      <p class="tyu">9 Kilometres away</p>
-    </div>
-  </div>
-</div>
 
-    <div class="parent">
-    <img src="lagos.webp">
-    <div class="element">
-      <p>Lagos</p>
-      <p class="tyu">9 Kilometres away</p>
-    </div>
-  </div>
+<div class="wrapper">
+	<!-- <div class="card pix">
+	    <img src="lagos.webp">
+	    <div class="element">
+	      <p>Lagos</p>
+	      <p class="tyu">9 Kilometres away</p>
+	    </div>
+	</div> -->
 
-    <div class="parent">
-    <img src="lagos.webp">
-    <div class="element">
-      <p>Lagos</p>
-      <p class="tyu">9 Kilometres away</p>
-    </div>
-  </div>
+	<div class="card pix">
+	    <img src="lagos.webp">
+	    <div class="element">
+	      <p>Lagos</p>
+	      <p class="tyu">9 Kilometres away</p>
+	    </div>
+	</div>
+	
+	<div class="card pix">
+	    <img src="lagos.webp">
+	    <div class="element">
+	      <p>Lagos</p>
+	      <p class="tyu">9 Kilometres away</p>
+	    </div>
+	</div>
+	
+	<div class="card pix">
+	    <img src="lagos.webp">
+	    <div class="element">
+	      <p>Lagos</p>
+	      <p class="tyu">9 Kilometres away</p>
+	    </div>
+	</div>
 
-    <div class="parent">
-    <img src="lagos.webp">
-    <div class="element">
-      <p>Lagos</p>
-      <p class="tyu">9 Kilometres away</p>
-    </div>
-  </div>
+	<div class="card pix">
+	    <img src="lagos.webp">
+	    <div class="element">
+	      <p>Lagos</p>
+	      <p class="tyu">9 Kilometres away</p>
+	    </div>
+	</div>
 
+	<!-- <div class="card pix">
+	    <img src="lagos.webp">
+	    <div class="element">
+	      <p>Lagos</p>
+	      <p class="tyu">9 Kilometres away</p>
+	    </div>
+	</div>
+
+	<div class="card pix">
+	    <img src="lagos.webp">
+	    <div class="element">
+	      <p>Lagos</p>
+	      <p class="tyu">9 Kilometres away</p>
+	    </div>
+	</div>
+
+	<div class="card pix">
+	    <img src="lagos.webp">
+	    <div class="element">
+	      <p>Lagos</p>
+	      <p class="tyu">9 Kilometres away</p>
+	    </div>
+	</div>
+
+	<div class="card pix">
+	    <img src="lagos.webp">
+	    <div class="element">
+	      <p>Lagos</p>
+	      <p class="tyu">9 Kilometres away</p>
+	    </div>
+	</div> -->
 </div>
 </body>
 </html>
